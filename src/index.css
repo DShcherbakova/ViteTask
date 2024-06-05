@@ -1,0 +1,55 @@
+.beige {
+  background-color: #a39480;
+  color: #fff;
+}
+
+.red {
+  background-color: #d26464;
+  color: #000;
+}
+
+.green {
+  background-color: #428b4e;
+  color: #fff;
+}
+
+.task-container {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  background-image: url('../image/pexels-tirachard-kumtanom-112571-733857.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.user {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  text-align: center;
+}
+
+.photo {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
