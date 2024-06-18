@@ -43,13 +43,31 @@
 .photo {
   border: 1px solid #ddd;
   padding: 10px;
-  margin: 10px;
+  margin: 50px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.8);
   color: #333;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
 }
 
+nav {
+  background-color: #c8dbca; /* Фоновий колір навігації */
+  border-bottom: 1px solid #e0e0e0; /* Нижня межа */
+  padding: 10px 20px; /* Внутрішні відступи */
+}
+
+/* Стилі для списку */
+nav ul {
+  list-style: none; /* Відключення маркерів списку */
+  padding: 0; /* Відключення відступів */
+  margin: 0; /* Відключення полів */
+  display: flex; /* Гнучке відображення для горизонтального розташування */
+  justify-content: space-around; /* Простір між елементами */
+  align-items: center; /* Вирівнювання елементів по центру */
+}
+
+nav a {
+  text-decoration: none; /* Відключення підкреслення */
+  color: #43484e; /* Колір посилань */
+  font-weight: bold; /* Жирний шрифт */
+  padding: 10px 15px; /* Внутрішні відступи для посилань */
+}

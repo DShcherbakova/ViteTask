@@ -45,7 +45,7 @@ export class UserList extends Component<Record<string, never>, IUserListState> {
         <span className="visually-hidden">Loading...</span>
       </div>
     ) : (
-      <div>
+      <div className="img-container">
         {users.map((user) => (
           <User key={user.id} person={user} />
         ))}

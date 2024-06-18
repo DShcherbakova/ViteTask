@@ -44,7 +44,7 @@ const TaskList = () => {
   };
 
   return (
-    <> 
+    <div className="img-container"> 
       <h1 className="text-center" style={{ margin: "50px" }}>
         Todo List App
       </h1>
@@ -68,7 +68,7 @@ const TaskList = () => {
           <Task key={Math.random()} title={task} del={() => deleteTask(i)} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
